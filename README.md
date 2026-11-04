@@ -8,7 +8,7 @@ Requires Node.js 20.19+ (or 22.12+) and Python 3.10+. The example uses Python 3.
 
 ```sh
 python3.12 -m venv .venv
-.venv/bin/pip install -r backend/requirements.txt
+.venv/bin/pip install -r requirements.txt
 npm ci
 npm run build
 .venv/bin/python backend/manage.py runserver 127.0.0.1:8000
