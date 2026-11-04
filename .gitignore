@@ -1,0 +1,10 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.env
+*.sqlite3
+.DS_Store
+staticfiles/
+.vercel/
